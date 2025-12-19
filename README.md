@@ -14,6 +14,9 @@ This repository contains the implementation for the final project, including dat
 ## Project Overview
 The goal of this project is to perform **hierarchical multi-label classification** on unlabeled product reviews using a predefined product taxonomy and class-related keywords. No gold labels are provided; instead, silver labels are generated and refined to train classification models.
 
+## How to
+Execute Combined.ipynb
+
 ## Repository Structure
 Each Jupyter notebook (`.ipynb`) is designed to run **independently** from top to bottom, assuming the directory structure is preserved and required files are available locally.
 
@@ -36,5 +39,4 @@ Each Jupyter notebook (`.ipynb`) is designed to run **independently** from top t
 
 ## Notes
 - Random seeds are fixed for Python, NumPy, and PyTorch to minimize randomness.
-- All experiments are executed using only the provided dataset and resources.
 - Intermediate results (e.g., silver labels) are generated within the notebooks.
