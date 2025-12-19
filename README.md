@@ -23,7 +23,7 @@ Each Jupyter notebook (`.ipynb`) is designed to run **independently** from top t
    - Examines class taxonomy structure and class keyword distributions
    - Performs basic text statistics and preprocessing analysis
 
-2. ***Representation & Silver Label Generation**
+2. **Representation & Silver Label Generation**
     - TF-IDF representations with cosine similarity between reviews and class keyword documents
     - Dense static embeddings via word co-occurrence matrix and Truncated SVD
     - Transformer-based review and class embeddings using a pretrained sentence encoder
